@@ -2,6 +2,11 @@
 
 # YOUR CODE HERE
 
+def odd_or_even(num):
+    if num % 2 == 0:
+        return True
+
+
 # Read a number from the keyboard
 num = input("Enter a number: ")
 num = int(num)
@@ -10,3 +15,7 @@ num = int(num)
 
 # YOUR CODE HERE
 
+if odd_or_even(num):
+    print("Even!")
+else:
+    print("Odd")
